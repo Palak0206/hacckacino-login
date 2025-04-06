@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusRent - Student Rental Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="9090.png" alt="CampusRent Logo" class="logo">
+
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#about">About</a>
+                <button class="login-btn">Login</button>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Campus Essentials One Click Away</h1>
+                <h2>All within Your Campus.</h2>
+                <p>The smart way to share resources in your college community</p>
+                <button class="cta-button">Start Exploring</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200" alt="Students collaborating">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About CampusRent</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>CampusRent connects students to share resources efficiently and affordably. From textbooks to lab equipment, find what you need or share what you have.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=600" alt="Books">
+                        <h3>Books & Tools</h3>
+                    </div>
+                    <div class="card">
+                        <img src="WhatsApp Image 2025-04-05 at 16.32.10_817152b8.jpg" alt="Electronics">
+                        <h3>Electronics</h3>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=600" alt="Bikes">
+                        <h3>Bikes & More</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="features" class="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon">
+                        <img class="icon-img" src="Easylisting.jpg" alt="Listing Icon">
+                    </div>
+                    <h3>Easy Listing</h3>
+                    <p>List your items in minutes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <img class="icon-img" src="smart.jpg" alt="Filter Icon">
+                    </div>
+                    <h3>Smart Filters</h3>
+                    <p>Find exactly what you need</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <img class="icon-img" src="verified.jpg" alt="Verified Icon">
+                    </div>
+                    <h3>Verified Users</h3>
+                    <p>Student-only platform</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <img class="icon-img" src="review.jpg" alt="Review Icon">
+                    </div>
+                    <h3>Reviews</h3>
+                    <p>Build trust through feedback</p>
+                </div>
+            </div>
+        </section>
+        
+        
+<!-- Why Use It Section -->
+    <section class="why-use">
+        <h2>Why Use CampusRent?</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <h3>Save Money</h3>
+                <p>Stop buying expensive items you'll only use briefly</p>
+            </div>
+            <div class="benefit">
+                <h3>Trust & Safety</h3>
+                <p>Verified student profiles and secure transactions</p>
+            </div>
+            <div class="benefit">
+                <h3>Convenience</h3>
+                <p>Find what you need right on your campus</p>
+            </div>
+        </div>
+    </section>
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h3>What Students Say</h3>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"CampusRent saved me hundreds on textbooks this semester!"</p>
+                    <cite>- Sarah J., Biology Major</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Found a great bike for the semester. Super convenient!"</p>
+                    <cite>- Mike T., Engineering Student</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Perfect for finding lab equipment when you need it."</p>
+                    <cite>- Alex R., Chemistry Major</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready to Start?</h2>
+            <p>Join your campus community today and start saving!</p>
+            <button class="cta-button">Log In Now</button>
+        </section>
+    </main>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">CampusRent</div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CampusRent. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login/Register Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="auth-container">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Login</button>
+                    <button class="auth-tab" data-tab="register">Register</button>
+                </div>
+                
+                <!-- Login Form -->
+                <form id="loginForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="enrollment">Enrollment Number</label>
+                        <input type="text" id="enrollment" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Login</button>
+                </form>
+                
+                <!-- Register Form -->
+                <form id="registerForm" class="auth-form hidden">
+                    <div class="form-group">
+                        <label for="regName">Full Name</label>
+                        <input type="text" id="regName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regEnrollment">Enrollment Number</label>
+                        <input type="text" id="regEnrollment" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regEmail">Email</label>
+                        <input type="email" id="regEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regPhone">Phone Number</label>
+                        <input type="tel" id="regPhone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regAddress">Residential Address</label>
+                        <input type="text" id="regAddress" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regPassword">Password</label>
+                        <input type="password" id="regPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regConfirmPassword">Confirm Password</label>
+                        <input type="password" id="regConfirmPassword" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</html>

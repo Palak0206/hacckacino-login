@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.hero {
+    background: url('../images/bg-home.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-content {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.logo-text {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.tagline h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 30px 0 10px 0;
+}
+
+.tagline p {
+    font-size: 1rem;
+}
+
+.arrow-button {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+.arrow-button a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.arrow-button a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
