@@ -181,3 +181,4 @@ registerForm.addEventListener('submit', (e) => {
         });
     });
 });
+});
